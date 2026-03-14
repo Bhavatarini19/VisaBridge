@@ -1,0 +1,98 @@
+/* ── Floating panel injected into LinkedIn pages ── */
+
+#kwf-panel {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 99999;
+  width: 230px;
+  background: #ffffff;
+  border: 1px solid #dde1e7;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  font-size: 13px;
+  display: none;
+  overflow: hidden;
+  user-select: none;
+}
+
+/* Dark navy — clearly distinct from LinkedIn's #0a66c2 */
+.kwf-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 14px;
+  background: #a80559;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+}
+
+.kwf-close-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 0 2px;
+  line-height: 1;
+  opacity: 0.75;
+  transition: opacity 0.15s;
+}
+.kwf-close-btn:hover { opacity: 1; }
+
+.kwf-rows { padding: 8px 14px 4px; }
+
+.kwf-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+.kwf-row:last-child { border-bottom: none; }
+
+.kwf-badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.kwf-num {
+  font-weight: 800;
+  font-size: 16px;
+  min-width: 24px;
+  text-align: right;
+}
+
+.kwf-foot {
+  padding: 8px 14px 10px;
+  border-top: 1px solid #f0f0f0;
+  color: #555;
+  font-size: 12px;
+  text-align: right;
+  background: #fafafa;
+  line-height: 1.5;
+}
+.kwf-foot strong { color: #111; }
+
+.kwf-no-match {
+  padding: 10px 0;
+  color: #555;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* ── Highlights on job description text ── */
+mark.kwf-mark {
+  border-radius: 3px;
+  padding: 1px 4px;
+  font-weight: 700;
+  font-style: normal;
+  cursor: default;
+}
