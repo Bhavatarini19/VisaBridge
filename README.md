@@ -4,6 +4,12 @@ A Chrome extension that highlights visa and sponsorship-related keywords in job 
 
 ---
 
+## Demo
+
+<video src="assets/Demo.mp4" width="700" controls autoplay loop muted></video>
+
+---
+
 ## The Problem
 
 As an international student on F1/OPT, every job application comes with an extra step — scanning the description for words like "visa sponsorship", "US citizen only", "security clearance", "must be authorized to work permanently." Missing these costs you time writing a cover letter, customizing a resume, and filling out a long application — only to get auto-rejected.
